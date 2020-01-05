@@ -71,32 +71,32 @@ int main()
     cout << "There was an error reading the file." << endl;
   cout << endl;
 
-  // cout << "====================== Question 3 ======================" << endl << endl;
+  cout << "====================== Question 3 ======================" << endl << endl;
   
-  // char header[512];
-  // success = make_header("wjk@imperial.ac.uk", "message1.txt", header);
-  // if (success)
-  //   cout << "A valid header for 'message1.txt' is "<< endl
-	//  << header << endl;
-  // else
-  //   cout << "There was an error generating the header." << endl;
-  // cout << endl;
+  char header[512];
+  success = make_header("wjk@imperial.ac.uk", "message1.txt", header);
+  if (success)
+    cout << "A valid header for 'message1.txt' is "<< endl
+	 << header << endl;
+  else
+    cout << "There was an error generating the header." << endl;
+  cout << endl;
 
-  // success = make_header("wjk@imperial.ac.uk", "message2.txt", header);
-  // if (success)
-  //   cout << "A valid header for 'message2.txt' is "<< endl
-	//  << header << endl;
-  // else
-  //   cout << "There was an error generating the header." << endl;
-  // cout << endl;
+  success = make_header("wjk@imperial.ac.uk", "message2.txt", header);
+  if (success)
+    cout << "A valid header for 'message2.txt' is "<< endl
+	 << header << endl;
+  else
+    cout << "There was an error generating the header." << endl;
+  cout << endl;
 
-  // success = make_header("wjk@imperial.ac.uk", "message3.txt", header);
-  // if (success)
-  //   cout << "A valid header for 'message3.txt' is "<< endl
-	//  << header << endl;
-  // else
-  //   cout << "There was an error generating the header." << endl;
-  // cout << endl;
+  success = make_header("wjk@imperial.ac.uk", "message3.txt", header);
+  if (success)
+    cout << "A valid header for 'message3.txt' is "<< endl
+	 << header << endl;
+  else
+    cout << "There was an error generating the header." << endl;
+  cout << endl;
 
   cout << "====================== Question 4 ======================" << endl << endl;
 
